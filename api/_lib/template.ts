@@ -17,8 +17,8 @@ function getCss() {
 
     .heading {
         font-family: 'Source Sans Pro', sans-serif;
-        color: #8464c6;
-        font-size: 7vw;
+        color: #fff;
+        font-size: 6vw;
         font-weight: 700;
         line-height: 1;
     }
@@ -28,15 +28,14 @@ function getCss() {
         flex-direction: column;
         justify-content: space-between;
         padding: 10rem 6rem;
-        width: 100%;
     }
 
     .avatar {
         width: 200px;
         height: 200px;
         border-radius: 50%;
-        border: 5px solid rgba(243,244,246);
-        margin-left: 50px;
+        border: 5px solid #3d375e7f;
+        margin-right: 50px;
     }
 
     .name {
@@ -48,7 +47,7 @@ function getCss() {
 
     .link {
         font-family: 'Open Sans', sans-serif;
-        color: #54c59f;
+        color: #8464c6;
         font-size: 1.8vw;
         font-weight: 600;
         margin: 0.8rem 0;
@@ -57,9 +56,6 @@ function getCss() {
     .box-info {
         display: flex;
         align-items: center;
-        align-self: self-end;
-        flex-direction: row-reverse;
-        text-align: right;
     }
     `;
 }
