@@ -10,7 +10,7 @@ function getCss() {
         border-box: box-sizing;
     }
     body {
-        background: rgb(3, 5, 24);
+        background: #15141b;
         height: 100vh;
         display: flex;
     }
@@ -55,7 +55,7 @@ function getCss() {
 
     .twitter {
         font-family: 'Open Sans', sans-serif;
-        color: #f231a5;
+        color: #61ffca;
         font-size: 1.8vw;
         font-weight: 600;
     }
