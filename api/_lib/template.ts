@@ -17,7 +17,7 @@ function getCss() {
 
     .heading {
         font-family: 'Source Sans Pro', sans-serif;
-        color: rgba(243,244,246);
+        color: #8464c6;
         font-size: 7vw;
         font-weight: 700;
         line-height: 1;
@@ -28,6 +28,7 @@ function getCss() {
         flex-direction: column;
         justify-content: space-between;
         padding: 10rem 6rem;
+        width: 100%;
     }
 
     .avatar {
@@ -35,7 +36,7 @@ function getCss() {
         height: 200px;
         border-radius: 50%;
         border: 5px solid rgba(243,244,246);
-        margin-right: 50px;
+        margin-left: 50px;
     }
 
     .name {
@@ -47,22 +48,18 @@ function getCss() {
 
     .link {
         font-family: 'Open Sans', sans-serif;
-        color: rgb(136, 153, 166);
+        color: #54c59f;
         font-size: 1.8vw;
         font-weight: 600;
         margin: 0.8rem 0;
     }
 
-    .twitter {
-        font-family: 'Open Sans', sans-serif;
-        color: #61ffca;
-        font-size: 1.8vw;
-        font-weight: 600;
-    }
-
     .box-info {
         display: flex;
         align-items: center;
+        align-self: self-end;
+        flex-direction: row-reverse;
+        text-align: right;
     }
     `;
 }
@@ -96,9 +93,6 @@ export function getHtml(parsedReq: ParsedRequest) {
                     <p class="link">miguelmachado.dev/${slugify(text, {
                       lower: true,
                     })}</p>
-                    <p class="twitter">
-                        twitter.com/oMigtito
-                    </p>
                 </div>
             </div>
         </div>
