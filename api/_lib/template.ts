@@ -14,7 +14,7 @@ function getCss() {
         height: 100vh;
         display: flex;
     }
-    
+
     .heading {
         font-family: 'Source Sans Pro', sans-serif;
         color: rgba(243,244,246);
@@ -87,17 +87,17 @@ export function getHtml(parsedReq: ParsedRequest) {
 
             <div class="box-info">
                 <img
-                    src="https://pbs.twimg.com/profile_images/1465351725305327620/z44BYn1t_400x400.jpg"
-                    alt="Willian Justen"
+                    src="https://pbs.twimg.com/profile_images/1319261726836166656/VHb9nKyv_400x400.jpg"
+                    alt="Miguel Machado"
                     class="avatar"
                 />
                 <div class="info">
-                    <p class="name">Willian Justen</p>
-                    <p class="link">willianjusten.com.br/${slugify(text, {
+                    <p class="name">Miguel Machado</p>
+                    <p class="link">miguelmachado.dev/${slugify(text, {
                       lower: true,
                     })}</p>
                     <p class="twitter">
-                        twitter.com/Willian_justen
+                        twitter.com/oMigtito
                     </p>
                 </div>
             </div>
