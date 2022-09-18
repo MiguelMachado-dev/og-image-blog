@@ -80,7 +80,7 @@ export function getHtml(parsedReq: ParsedRequest) {
 
             <div class="box-info">
                 <img
-                    src="https://pbs.twimg.com/profile_images/1319261726836166656/VHb9nKyv_400x400.jpg"
+                    src="https://github.com/MiguelMachado-dev.png"
                     alt="Miguel Machado"
                     class="avatar"
                 />
